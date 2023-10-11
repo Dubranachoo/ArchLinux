@@ -3,8 +3,8 @@
 instalacion de arch linux (manual y automatico)
 
 # Modo automatico
-# bueno, la problematica aqui, es como instalar arch linux de manera facil
-# (obviamente, si quieren romperse la cabeza, podemos hacer la instalacion manual)
+## bueno, la problematica aqui, es como instalar arch linux de manera facil
+### (obviamente, si quieren romperse la cabeza, podemos hacer la instalacion manual)
 
 # que es arch linux? 
 esta distribucion de GNU/linux es la mas liviana y la mas personalizable de todas las distribuciones,
@@ -91,22 +91,22 @@ archinstall
 
 y vamos a encontrarnos con una interfaz guiada para instalar arch en nuestra pc.
 
-## lenguaje del instalador: (recomiendo dejarlo en ingles).
-## mirrors (son los que despues nos ayudaran a instalar paquetes, se marcan con la tecla espacio, recomiendo si sos de argentina, que uses el de arg y el brasileño).
-## keyboard (con esto vamos a configurar el teclado(en argentina se usa la-latin1), pero solo para arch, no para el entorno grafico, si instalar hyprland, tengo un repositorio aparte donde esplico como dejarlo bien).
-## drive(s) (aca vamos a decirle en que disco queremos instalar arch, lo buscan y lo marcan con la tecla espacio(acuerdense que esto borrara todos sus datos en ese disco)).
-## bootloader (bueno aca es complicado, si tienen UEFI, solo dejenlo como esta, y para hacer un dual boot con windows, arch debe instalarse manualmente).
-## swap (esta es la memoria de intercambio entre el SO y el disco, para que la ram no se llene, yo no uso, por motivo de mejorar el rendimiento del ssd, pero se puede usar igual).
-## hostname (aca por defecto dice "archlinux", pero podemos poner el nombre que nosotros queramos, es para crear el usuario root).
-## root passwd (con esta contraseña, entraremos al root de nuestro dispositivo, acuerdense tanto el hostname y esta contraseña.).
-## user account (estos son los usuarios del pc, debes crear uno (yo le puse el nombre y la contraseña igual a las anteriores (root) para no confundirme)).
-## profile (aqui vamos a decirle a arch que es lo que queremos, si queremos una instalacion minima o con entornos graficos(yo elegi entorno grafico hyprland, que es un buen gestor de ventanas, pero pueden elegir lo que quieran)).
-## select audio (aqui vamos a poner el driver de audio, si tu pc es media nueva, usa "pipewire", sino, "pulseaudio").
-## kernels (esto recomiendo que no lo toquen, es el kernel de linux).
-## additional packages (no agreguen nada, instalen paquetes luego de que termine la instalacion de arch).
-## additional repositories (lo mismo que los packages).
-## configure network (pongan en este como en la ISO de instalacion, asi les instala los modulos de wifi).
-## timezone (aca elegis la zona horaria tuya (en mi caso arg)).
+### lenguaje del instalador: (recomiendo dejarlo en ingles).
+### mirrors (son los que despues nos ayudaran a instalar paquetes, se marcan con la tecla espacio, recomiendo si sos de argentina, que uses el de arg y el brasileño).
+### keyboard (con esto vamos a configurar el teclado(en argentina se usa la-latin1), pero solo para arch, no para el entorno grafico, si instalar hyprland, tengo un repositorio aparte donde esplico como dejarlo bien).
+### drive(s) (aca vamos a decirle en que disco queremos instalar arch, lo buscan y lo marcan con la tecla espacio(acuerdense que esto borrara todos sus datos en ese disco)).
+### bootloader (bueno aca es complicado, si tienen UEFI, solo dejenlo como esta, y para hacer un dual boot con windows, arch debe instalarse manualmente).
+### swap (esta es la memoria de intercambio entre el SO y el disco, para que la ram no se llene, yo no uso, por motivo de mejorar el rendimiento del ssd, pero se puede usar igual).
+### hostname (aca por defecto dice "archlinux", pero podemos poner el nombre que nosotros queramos, es para crear el usuario root).
+### root passwd (con esta contraseña, entraremos al root de nuestro dispositivo, acuerdense tanto el hostname y esta contraseña.).
+### user account (estos son los usuarios del pc, debes crear uno (yo le puse el nombre y la contraseña igual a las anteriores (root) para no confundirme)).
+### profile (aqui vamos a decirle a arch que es lo que queremos, si queremos una instalacion minima o con entornos graficos(yo elegi entorno grafico hyprland, que es un buen gestor de ventanas, pero pueden elegir lo que quieran)).
+### select audio (aqui vamos a poner el driver de audio, si tu pc es media nueva, usa "pipewire", sino, "pulseaudio").
+### kernels (esto recomiendo que no lo toquen, es el kernel de linux).
+### additional packages (no agreguen nada, instalen paquetes luego de que termine la instalacion de arch).
+### additional repositories (lo mismo que los packages).
+### configure network (pongan en este como en la ISO de instalacion, asi les instala los modulos de wifi).
+### timezone (aca elegis la zona horaria tuya (en mi caso arg)).
 
 luego de configurar todo esto, dale install nomas y a esperar.
 
