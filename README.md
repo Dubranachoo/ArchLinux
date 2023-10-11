@@ -2,7 +2,6 @@
 # ArchLinux
 instalacion de arch linux (manual y automatico)
 
-# Modo automatico
 ## bueno, la problematica aqui, es como instalar arch linux de manera facil
 #### (obviamente, si quieren romperse la cabeza, podemos hacer la instalacion manual)
 
@@ -14,7 +13,7 @@ es libre y gratuita, se puede hacer lo que se quiera. aunque, su instalacion es 
 
 
 # instalamos Arch Linux de forma automatica
-lo primero que debemos hacer, es crear una unidad usb booteable para poder iniciar en este sistema por medio de la ram e instalarlo en nuestra pc
+lo primero que debemos hacer, es crear una unidad usb booteable para poder iniciar en este sistema por medio de la ram e instalarlo en nuestra pc aqui te dejo el [enlace para descargar la iso](https://mirrors.eze.sysarmy.com/archlinux/iso/2023.09.01/archlinux-2023.09.01-x86_64.iso)
 podremos usar rufus, o tambien ventoy... (yo uso ventoy, con solo poner la ISO en el pendrive, ya se puede bootear).
 luego de tener la unidad usb, procedemos a bootear la iso..
 
