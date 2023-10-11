@@ -4,7 +4,7 @@ instalacion de arch linux (manual y automatico)
 
 # Modo automatico
 ## bueno, la problematica aqui, es como instalar arch linux de manera facil
-### (obviamente, si quieren romperse la cabeza, podemos hacer la instalacion manual)
+#### (obviamente, si quieren romperse la cabeza, podemos hacer la instalacion manual)
 
 # que es arch linux? 
 esta distribucion de GNU/linux es la mas liviana y la mas personalizable de todas las distribuciones,
